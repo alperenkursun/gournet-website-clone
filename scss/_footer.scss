@@ -1,0 +1,19 @@
+footer {
+  text-align: center;
+  padding: 32px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+
+  p {
+    margin: 10px 0;
+    height: 22.5px !important;
+    display: block;
+    font-family: "Times New Roman", Georgia, Serif;
+
+    a {
+      border-bottom: 1px solid #000;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+nav {
+  height: 54.5px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px 0 RGB(0 0 0 / 16%), 0 2px 10px 0 RGB(0 0 0 / 12%);
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  font-family: "Times New Roman", Georgia, Serif;
+
+  #nav-left {
+    a {
+      letter-spacing: 4px;
+      font-size: 15px;
+      line-height: 1.5;
+      padding: 8px 16px;
+
+      &:hover {
+        background-color: $first-color;
+      }
+    }
+  }
+
+  #nav-right {
+    a {
+      letter-spacing: 4px;
+      font-size: 15px;
+      line-height: 1.5;
+      padding: 8px 16px;
+
+      &:hover {
+        background-color: $first-color;
+      }
+    }
+  }
+}

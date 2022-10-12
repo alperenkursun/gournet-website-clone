@@ -1,0 +1,33 @@
+@media (max-width: 600px) {
+  nav {
+    #nav-right {
+      display: none;
+    }
+  }
+
+  #about {
+    &-left {
+      display: none;
+    }
+  }
+
+  #menu {
+    display: block;
+  }
+
+  #contact {
+    width: 100vw;
+
+    input {
+      width: 451px !important;
+    }
+  }
+
+  #footer {
+    width: 100%;
+  }
+
+  .border-bottom {
+    width: 100vw;
+  }
+}
